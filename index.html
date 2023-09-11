@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gossip-Chat Application</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="image"><h3 ><img src="GossipLogo.jpg" alt="Gossip">ossip</h3></div>
+        <div class="image"><h1>&#128522;</h1></div>
+        <div class="image1">
+        <div class="image"> <button class="button-solid"><img src="camra icon.png" alt="Camra"></button></div>
+        <div class="image"><button class="button-solid"><img src="search icon.png" alt="Search"></button></div>
+    </div>
+        
+    </div>
+    <div class="container1">
+        <p>Welcome to the Gossip World!</p>
+        <!-- <div class="msg right"></div>
+        <div class="msg left"></div> -->
+    </div>
+
+    <div class="container2">
+        <form action="#" id="client_sender_msg">
+            <input type="text" name="user_msg" id="user_msg" name="user_msg" placeholder="Type Here...">
+            <button id="send_message" type="submit">Send</button>
+        </form>
+    </div>
+    <script src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+</body>
+
+</html>
